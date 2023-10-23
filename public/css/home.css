@@ -1,0 +1,109 @@
+@import url(/css/general.css);
+
+.container{
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif ;
+    color: #666;
+    
+}
+
+.search{
+    margin-left: 5%;
+}
+
+.burger-menu i{
+margin-left: 40%;
+  background-color: #1259c3;
+  padding: 10px;
+    
+}
+.iconos i{
+    margin-left: 0%;
+}
+
+.fondo{
+    background-color: #EAC926;
+}
+
+.fondo-body{
+    background-color: #ebebeb;
+}
+
+.ult-visita{
+    margin-left: 30%;
+}
+
+.div-articles{
+    background-color: #ffffff;
+    display: table;
+    padding: 3%;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-family: 'Roboto', sans-serif ;
+    text-align: center;
+    
+}
+
+.anuncio-cuotas {
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.off{
+    color: #39b54a;
+  margin-right: 0%;
+    
+}
+
+
+h3{
+    font-family: 'Roboto', sans-serif ;
+    font-size: 24px;
+    color: #666;
+}
+
+
+
+.truck{
+    margin-left: 30%;
+}
+
+.off h5{
+    font-family: 'Roboto', sans-serif ;
+    font-size: 16px;
+   
+}
+
+span {
+    font-family: 'Roboto', sans-serif ;
+    font-size: 18px;
+    margin-right: 20%;
+}
+
+.productos{
+    margin-left: 40%;
+}
+
+
+footer{
+    font-family: 'Roboto', sans-serif ;
+    background-color: #ffffff;
+    display: table;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.icon i{
+   margin-bottom: 10px;
+   color: #1259c3;
+   margin-left: 40%;
+   font-size: 2em;
+    
+}
+
+hr{
+    margin-right: 10%;
+}
+
