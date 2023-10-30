@@ -1,4 +1,5 @@
 @import url(/css/general.css);
+@import url(/css/header.css);
 
 .left-aligned{
    width: 50%;
@@ -49,14 +50,21 @@ margin-left: 40%;
     font-family: 'Roboto', sans-serif ;
 }
 
-.div-articles{
+  .productos {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+  }
+ 
+  
+  .div-articles{
     background-color: #ffffff;
-    display: table;
-   margin-left: 15px;
-   margin-right: 15px;
-    font-family: 'Roboto', sans-serif ;
-    text-align: center; 
+    text-align: center;
+    padding: 15px;
+    margin: 30px 10px; 
+   
 }
+
+
 
 .anuncio-cuotas {
     margin-left: 10%;
@@ -79,11 +87,9 @@ h3{
 
 
 
-.truck{
-    margin-left: 30%;
-}
 
-.off h5{
+
+.off h4{
     font-family: 'Roboto', sans-serif ;
     font-size: 16px;
    
@@ -95,8 +101,16 @@ span {
     margin-right: 20%;
 }
 
-.productos{
-    margin-left: 40%;
+.fa-truck{
+    position: relative;
+    left: 88px;
+    bottom: 7px;
+}
+
+.fa-circle{
+    font-size: 37px;
+    position: relative;
+    left: 120px;
 }
 
 
