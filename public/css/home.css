@@ -2,38 +2,38 @@
 
 
 .left-aligned{
-   width: 50%;
-   margin-left: 20px;
-    
-}
+    width: 50%;
+    margin-left: 20px;
+     
+ }
 
 .container{
     margin-left: 5%;
     font-family: 'Roboto', sans-serif ;
-    color: #666;
+    color: #666;   
    
-    
 }
 
 .search{
     margin-left: 5%;
+    width: 50%;
+
 }
 
 .burger-menu i{
-margin-left: 40%;
+  margin-left: 40%;
   background-color: #1259c3;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 10px;
-    
+  margin-bottom: 10px;   
 }
+
 .iconos i{
     margin-left: 0%;
 }
 
 .fondo-header{
     background-color: #EAC926;
-    
 }
 
 .fondo-body{
@@ -41,13 +41,17 @@ margin-left: 40%;
 }
 
 .ult-visita{
-    margin-left: 0px;
-    font-family: 'Roboto', sans-serif ;
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .ofertas{
-    margin-left: 30%;
-    font-family: 'Roboto', sans-serif ;
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    margin: 10px 0px;
 }
 
   .productos {
@@ -58,80 +62,75 @@ margin-left: 40%;
   
   .div-articles{
     background-color: #ffffff;
-    text-align: center;
     padding: 15px;
     margin: 30px 10px; 
    
 }
 
-
-
 .anuncio-cuotas {
-    margin-left: 10%;
-    font-family: 'Roboto', sans-serif;   
-}
-
-.off{
-    color: #39b54a;
-  margin-right: 0%;
-    
+    margin-left: 10%;  
 }
 
 
-h3{
-    font-family: 'Roboto', sans-serif ;
-    font-size: 24px;
-    color: #666;
- 
-}
-
-
-
-
-
-.off h4{
-    font-family: 'Roboto', sans-serif ;
-    font-size: 16px;
-   
-}
-
-span {
-    font-family: 'Roboto', sans-serif ;
+.precio{
     font-size: 18px;
-    margin-right: 20%;
+    flex: 30%;
+    display: flex;
+}
+
+.off {
+    font-size: 16px;
+    flex: 70%;
+    display: flex;
+    color: #39b54a;
+}
+
+.articles-h2{
+    display: none;
+    color:var(--color-gris-oscuro);
+    font-size: 16px;
 }
 
 .fa-truck{
-    position: relative;
+    position:relative;
     left: 88px;
     bottom: 7px;
+   
 }
 
 .fa-circle{
     font-size: 37px;
     position: relative;
     left: 120px;
+   
 }
 
-
-footer{
-    font-family: 'Roboto', sans-serif ;
+.footer{
     background-color: #ffffff;
-    margin: 0px;
+    width: 100%;
+}
+
+.div-footer{
+    justify-content: center;
+    padding: 8% 0%;
+    text-align: center;
+    color:var(--color-gris-oscuro);
 }
 
 .Copyright{
-    font-size: small;
-}
-.icon i{
-   
-   margin-bottom: 10px;
-   color: #1259c3;
-   margin-left: 40%;
-   font-size: 2em;
-    
+    color: var(--color-gris-oscuro);
+    padding-top: 6%;
+    padding-bottom: 35px;
+    margin-left: 20px;
 }
 
+.icon-footer i{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:var(--color-celeste);
+}
 
 
 #navv{
@@ -139,9 +138,6 @@ footer{
     display: none;
 }
 
-.div-articles-h2{
-    display: none;
-}
 
 
 @media (min-width: 361px){
@@ -152,8 +148,10 @@ footer{
     .burger-menu{
         display: none;
     }
-    .div-articles-h2{
+    .articles-h2{
         display: initial;
+        color:var(--color-gris-oscuro);
+        font-size: 16px;
     }
     .div-articles{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
