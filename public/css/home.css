@@ -1,6 +1,8 @@
 @import url(/css/general.css);
 
 
+/*header*/
+
 .left-aligned{
     width: 50%;
     margin: 20px 35px;
@@ -12,13 +14,14 @@
     margin-right: 200px;
     align-content: flex-end;
 }
+
 .search input{
     width: 160px;
 }
+
 .search button{
     width: 22px;
 }
-
 
 .burger-menu i{
   margin-left: 40%;
@@ -35,6 +38,8 @@
 .fondo-header{
     background-color: #EAC926;
 }
+
+/*BODY*/
 
 .fondo-body{
     background-color: #ebebeb;
@@ -55,32 +60,36 @@
     width: 100%;
 }
 
- 
-  
-  .div-articles{
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 30px 10px; 
-
-   
-}
-
 .anuncio-cuotas {
     
         outline: 1px ;
         margin-top: 5%;
         margin-left: 7%;
         padding-bottom: 20px;
-    }
+}
+
+.lista1{
+        padding-bottom: 20px;
+        display: none;
+}   
+.lista2{
+        padding-bottom: 20px;
+        display: none;
+}
 
 
+    /*PRODUCTOS*/
+
+.div-articles{
+        background-color: #ffffff;
+        padding: 15px;
+        margin: 30px 10px; 
+}
 
 .precio{
     font-size: 18px;
     width: 30%;
-    align-self: center;
-
-    
+    align-self: center;  
 }
 
 .off {
@@ -120,7 +129,7 @@
    top: -15px;
 }
 
-
+/*FOOTER*/
 
 .footer{
     background-color: #ffffff;
@@ -150,44 +159,35 @@
 }
 
 
-.lista1{
-    padding-bottom: 20px;
-    display: none;
-}
-.lista2{
-    padding-bottom: 20px;
-    display: none;
-}
- 
-
-
 @media (min-width: 768px){
    
     .burger-menu{
         display: none;
     }
+
     .articles-h2{
         display: initial;
         color:var(--color-gris-oscuro);
         font-size: 16px;
     }
 
-    
     .div-articles{
         box-shadow: 0px 0px 10px rgb(100, 100, 100); width: 100%;
     }
+
     .home_main section{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
     }
+
     .div-articles{
         background-color: #ffffff;
         padding:40px;
         margin: 30px 20px;
         width: 40%;
     }
+
     .header-enlaces{
         display: initial;
         padding-bottom: 20px;
@@ -195,6 +195,7 @@
         display: flex;
         justify-content: space-between;
     }
+
     .header-enlaces a {
         margin-right: 5vh;
     }
@@ -220,6 +221,7 @@
   
 }
 
+
 @media (min-width: 1024px){
  
 
@@ -227,7 +229,6 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
     }
 
     .div-articles{
@@ -236,6 +237,7 @@
         margin: 30px 20px;
         width: 20%;
     }
+
     .header-enlaces{
         display: initial;
         padding-bottom: 20px;
