@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.listen(8000, () => {
-    console.log("servidor corriendo 8000");
+app.listen(3030, () => {
+    console.log("servidor corriendo 3030");
 });
 
 app.get('/', function(req, res ){
@@ -30,7 +30,7 @@ app.get('/creatucuenta', function(req, res ){
     res.sendFile(path.join(__dirname, '/views/creatucuenta.html'));
 });
 
-app.get('/ingresa', function(req, res ){
+app.get('/Ingresa', function(req, res ){
     res.sendFile(path.join(__dirname, '/views/ingresa.html'));
 });
 

@@ -1,0 +1,114 @@
+/*.main-form{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.main-form div{
+    display: flex;
+    padding: 15px;
+   justify-content: center;
+}
+.main-form .item-form input{
+    padding: 8px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    width:250px
+}
+.main-form div button{
+    background-color: var( --color-celeste);
+    padding: 8px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 250px;
+
+}
+.date{
+    background-color: white;
+}
+.main-form-radio div{
+    width: 150px;
+
+    
+}
+.main-form-radio div input{
+    margin-right: 5px;
+}
+.main-form-subtitles h4{
+width: 250px;
+text-align: left;
+margin-bottom: -20px;
+
+}
+.main-form-checkbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    width: 250px;
+}
+.main-form-checkbox div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.main-form-checkbox div input{
+    margin-right: 5px;
+}
+.form-lista{
+    border:none;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 0 22px;
+    width: 100px;
+    font-size: 12px;
+    background-color: white ;
+}
+@media (min-width: 768px) {
+    .producto {
+        padding: 0;
+        width: 20%;
+    }
+
+    .main-form {
+        width: 500px;
+    
+     
+        justify-content: flex-start;
+    }
+
+    .main-form div button {
+     
+        margin-bottom: 100px;
+    }
+    .main-form-checkbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 5px;
+        width: 250px;
+    }
+    .main-form-checkbox div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .main-form .item-form input, .main-form-checkbox, .main-form-h4 h4{
+        width:500px;
+        margin: 0;
+    }
+    .form-lista{
+        width: 500px;
+        margin: 0 5px ;
+        
+    }
+    .main-form div button{
+    
+        width: 470px;
+    
+    }
+
+        
+}*/

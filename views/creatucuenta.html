@@ -1,12 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ayuda</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mercado liebre</title>
+	<script src="https://kit.fontawesome.com/8f20961981.js" crossorigin="anonymous"></script> 
+	<link rel="stylesheet" href="/css/home.css">
 </head>
-<body>
-    <li><a href = "/">Home</a></li>
+<body class="fondo-body">
+	<header class="fondo-header">
+		<section class="logo-busqueda-cuotas">
+           
+				<img src="/images/logo-mercado-liebre.svg"  alt="logo-mercado-liebre" height="100%" class="left-aligned">
+				<form>
+                <div class="search">
+					<input type="text" placeholder="Buscar productos, marcas">
+					<button><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i>
+					</button>
+				</div>
+  </form>
+</div>
+            <p class="anuncio-cuotas"><i class="fa-solid fa-hand-holding-dollar fa-xs"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+    </section>
+        <nav class="header-enlaces">
+            <ul class="lista1">
+              <li><a href="/ofertas">Ofertas</a></li>
+              <li><a href="/tiendasOficiales">Tiendas oficiales</a></li>
+              <li><a href="/vender">Vender</a></li>
+              <li><a href="/ayuda">Ayuda</a></li>
+            </ul>
+  
+            <ul class="lista2">
+              <li><a href="/creatucuenta">Creá tu cuenta <i class="fa-regular fa-address-card"></i></a></li>
+              <li><a href="/ingresa">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+              <li><a href="/miscompras">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+            </ul>
+        </nav>
+<div class="burger-menu">
+    <i class="fas fa-bars"></i>
+    </div>
+</header>
+<main>
+    <form class="main-form" action="">
+        <div class="main-form-title">
+            <h2>Completá los datos para crear tu cuenta</h2>
+        </div>
+        <div class="item-form">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required minlength="8">
+        </div>
+        <div class="item-form">
+            <input type="text" name="user" id="user" placeholder="Nombre de usuario" required minlength="8">
+        </div>
+        <div class="item-form">
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+        </div>
+        <div class="main-form-h4">
+            <h4>Fecha de nacimiento</h4>
+        </div>
+        <div class="item-form">
+            <input class="date" type="date" id="date" name="date" value="2018-07-22" min="1997-01-01"
+                max="2022-01-12">
+        </div>
+        <div class="main-form-h4">
+            <h4>Ubicacion</h4>
+        </div>
+        <div class="item-form">
+            <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required>
+        </div>
+        <div>
+            <select class="form-lista" name="pais">
+                <option value="pais" hidden>Pais</option>
+                <option value="pais1">Argentina</option>
+                <option value="pais2">Chile</option>
+                <option value="pais3">Paraguay</option>
+                <option value="pais3">Uruguay</option>
+                <option value="pais3">Bolivia</option>
+
+            </select>
+            <select class="form-lista" name="Zona">
+                <option value="zona" hidden>Zona</option>
+                <option value="zona1">Zona sur</option>
+                    <option value="zona2">Zona norte</option>
+                    <option value="zona3">Zona este</option>
+                    <option value="zona4">Zona oeste</option>
+            </select>
+        </div>
+        <div class="main-form-h4">
+            <h4>Perfil de usuario</h4>
+        </div>
+        <div class="main-form-radio">
+            <div><input type="radio" id="comprador" name="comprador">
+                <label for="comprador">Comprador</label>
+            </div>
+            <div>
+                <input type="radio" id="vendedor" name="vendedor">
+                <label for="vendedor">Vendedor</label>
+            </div>
+        </div>
+        <div class="main-form-h4">
+            <h4>Intereses</h4>
+        </div>
+        <div class="main-form-checkbox">
+            <div>
+                <input type="checkbox" name="electro"> <label for="electro">Electro</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Moda"> <label for="Moda">Moda</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Hogar"> <label for="Hogar">Hogar</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Jugueteria"> <label for="Jugueteria">Jugueteria</label>
+            </div>
+            <div>
+                <input type="checkbox" name="vidaSana"> <label for="vidaSana">Vida sana</label>
+            </div>
+        </div>
+        <div> <a href="#"><button class="btn" type="submit">Enviar</button></a></div>
+
+
+    </form>
+</main>
+<footer class="footer">
+    <div class="div-footer">
+        <article class="icon-footer">
+                <i class="fa-solid fa-credit-card"></i>
+            <h3>Pagá con tarjeta o en efectivo</h3>
+            <p class="futer">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en <br>
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
+    </div>
+    <div class="div-footer">
+        <article class="icon-footer">
+                <i class="fa-solid fa-gift"></i>
+            <h3>Envío gratis desde $ 2.500</h3>
+            <p class="futer">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de <br>
+                productos. Es un beneficio de Mercado Puntos.</p>
+    <div class="div-footer">
+        <article class="icon-footer">
+                <i class="fa-solid fa-user-shield"></i>
+            <h3>Seguridad, de principio a fin</h3>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,<br>
+                porque estás siempre protegid@.</p>
+            
+        <article>
+            <p class="Copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </article>		
+</footer>
+
 </body>
 </html>
