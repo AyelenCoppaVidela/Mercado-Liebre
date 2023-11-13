@@ -130,6 +130,15 @@
     position: absolute;
     right: 20px;
    top: -15px;
+   
+  
+}
+article .fa-truck{
+    transition: 0.6s;
+}
+article .fa-truck :hover{
+    transform: rotateZ(-90deg);
+    transition: all 700ms;
 }
 
 /*FOOTER*/
@@ -137,6 +146,7 @@
 .footer{
     background-color: #ffffff;
     width: 100%;
+   
 }
 
 .div-footer{
@@ -248,7 +258,10 @@
         display: inline-block;
         display: flex;
         justify-content: space-between;
+    
     }
+
+
 
  /*formularios*/
     
@@ -269,18 +282,27 @@
     border: none;
     font-size: 12px;
     border-radius: 5px;
-    width:250px
+    width:250px;
 }
-.main-form div button{
-    background-color: var( --color-celeste);
-    padding: 8px;
-    color: white;
-    border: none;
-    font-size: 12px;
-    border-radius: 5px;
-    width: 250px;
+    .button-form{
+        background-color: var(--color-celeste);
+        padding: 10px;
+        margin: 20px 0px;
+        border-radius: 5px;
+        font-size: 16px;
+        border: none;
+        width: 500px;
+        opacity: 0.7;
+        transition: 0.6s;
+        color: white;
+       
+    }
+    
+    .button-form:hover{
+        cursor: pointer;
+        background-color: #0022AA;
+    }
 
-}
 .date{
     background-color: white;
 }
@@ -322,6 +344,8 @@ margin-bottom: -20px;
     font-size: 12px;
     background-color: white ;
 }
+
+
 @media (min-width: 769px) {
     .producto {
         padding: 0;
@@ -365,6 +389,16 @@ margin-bottom: -20px;
         width: 470px;
     
     }
+ 
+    
+    
+  .footer section{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+  }
+  .Copyright{
+      margin-top: 0%;
+  }
 
-        
 }

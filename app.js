@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.listen(3030, () => {
-    console.log("servidor corriendo 3030");
+app.listen(8000, () => {
+    console.log("servidor corriendo 8000");
 });
 
 app.get('/', function(req, res ){
